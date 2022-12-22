@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+export LC_ALL=C.UTF-8
+
+export PYBUILD_NAME=python-pytest-timeout
+
+%:
+	dh $@ --buildsystem=pybuild --with python3
+
+override_dh_install:
+	dh_install -O--buildsystem=pybuild
+
+override_dh_installdocs:
+	dh_installdocs -A README.rst

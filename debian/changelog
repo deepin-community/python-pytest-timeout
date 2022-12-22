@@ -1,0 +1,128 @@
+python-pytest-timeout (2.0.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Update to new upstream release 2.0.1
+
+ -- Scott Talbert <swt@techie.net>  Mon, 11 Oct 2021 21:44:18 -0400
+
+python-pytest-timeout (1.4.2-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Scott Talbert ]
+  * Update to new upstream version 1.4.2
+  * Update Standards-Version to 4.6.0
+  * Update d/watch version to 4
+  * Rules-Requires-Root: no
+  * debhelper-compat (= 13)
+
+ -- Scott Talbert <swt@techie.net>  Wed, 18 Aug 2021 13:44:47 -0400
+
+python-pytest-timeout (1.4.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Update to new upstream version 1.4.1
+  * Update Standards-Version to 4.5.0
+  * Update Homepage and Source URLs to new hosting location
+  * Refresh patch
+  * Add pexpect and pytest-cov to build depends (needed for tests)
+  * Update README -> README.rst
+
+ -- Scott Talbert <swt@techie.net>  Mon, 06 Jul 2020 22:13:09 -0400
+
+python-pytest-timeout (1.3.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Use debhelper-compat instead of debian/compat.
+  * Drop Python 2 support (Closes: #938103).
+  * Bump debhelper compat level to 12.
+  * Bump standards version to 4.4.0.
+  * Use pybuild to run tests.
+  * Set PYBUILD_NAME.
+  * Enable autopkgtest-pkg-python testsuite.
+  * Fix FTBFS during tests.
+
+ -- Ondřej Nový <onovy@debian.org>  Mon, 16 Sep 2019 12:16:22 +0200
+
+python-pytest-timeout (1.3.3-1) unstable; urgency=medium
+
+  * [ea7963] New upstream version 1.3.3
+  * [60cf85] Packaging moved under the umbrella of the DPMT
+  * [fcea48] Remove trailing whitespace from d/changelog
+  * [6ead87] Remove generated upstream changelog
+  * [e0f3e9] Remove .pytest_cache in the clean phase
+  * [f11ff6] No longer install the TODO file
+  * [de5da3] Bump Standards-Version, no changes were required.
+  * [bd8d24] Remove upstream PGP keys as releases are not longer signed
+
+ -- gustavo panizzo <gfa@zumbi.com.ar>  Sun, 09 Dec 2018 21:23:06 +0800
+
+python-pytest-timeout (1.3.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bumped standard version to 4.9.2, no changes were needed.
+  * Increase compat level to 10
+  * Remove python3-dev from build deps
+  * Declare the locale used during the build in debian/rules
+  * Use compat level 11
+  * Use secure URL in the copyright file
+  * Update copyright years
+  * Check DEB_BUILD_OPTIONS before running the tests
+  * Update upstream changelog
+
+ -- gustavo panizzo <gfa@zumbi.com.ar>  Sat, 28 Jul 2018 13:59:02 +0800
+
+python-pytest-timeout (1.2.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update VCS fields to salsa.debian.org
+  * Bumped standard version to 4.1.2, no changes were needed.
+  * Update upstream changelog
+
+ -- gustavo panizzo <gfa@zumbi.com.ar>  Sat, 30 Dec 2017 10:26:21 +0800
+
+python-pytest-timeout (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update upstream homepage
+  * Bumped standard version to 4.0.1, no changes were needed.
+  * Update copyright years
+  * Update upstream changelog
+  * Add pristine-tar branch to the git repo
+  * Remove signature checking in debian/watch, as unfortunately upstream no
+    longer sign releases
+
+ -- gustavo panizzo <gfa@zumbi.com.ar>  Tue, 08 Aug 2017 13:19:13 +0800
+
+python-pytest-timeout (1.0.0-1.1) unstable; urgency=high
+
+  * Non-maintainer upload.
+  * Fix FTBFS, missing build dependency on python3-dev (Closes: #815291)
+
+ -- Moritz Muehlenhoff <jmm@debian.org>  Fri, 10 Jun 2016 15:55:31 +0200
+
+python-pytest-timeout (1.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bumped standard version to 3.9.7, no changes were needed.
+  * Use SSL enabled VCS fields.
+
+ -- gustavo panizzo <gfa@zumbi.com.ar>  Mon, 18 Apr 2016 08:57:21 +0000
+
+python-pytest-timeout (0.4-2) unstable; urgency=medium
+
+  * Call tests from debian/rules, fix FTBFS (Closes: #795001).
+
+ -- gustavo panizzo <gfa@zumbi.com.ar>  Mon, 17 Aug 2015 08:37:56 +0800
+
+python-pytest-timeout (0.4-1) unstable; urgency=low
+
+  * Initial release. (Closes: #779417)
+
+ -- gustavo panizzo <gfa@zumbi.com.ar>  Sat, 28 Feb 2015 18:29:40 +0800

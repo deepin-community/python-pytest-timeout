@@ -1,0 +1,2 @@
+Tests: python3-pytest-timeout
+Depends: python3-all, python3-pexpect, python3-pytest-cov, python3-pytest-timeout

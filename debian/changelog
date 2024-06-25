@@ -1,3 +1,49 @@
+python-pytest-timeout (2.3.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Update to new upstream release 2.3.1
+
+ -- Scott Talbert <swt@techie.net>  Tue, 26 Mar 2024 23:19:05 -0400
+
+python-pytest-timeout (2.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Update to new upstream release 2.2.0
+  * Switch to pyproject build (Closes: #1052812)
+  * Update standards version to 4.6.2, no changes needed
+
+ -- Scott Talbert <swt@techie.net>  Mon, 09 Oct 2023 20:35:45 -0400
+
+python-pytest-timeout (2.1.0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 17 Oct 2022 01:49:22 +0100
+
+python-pytest-timeout (2.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add non-superficial autopkgtests
+
+ -- Scott Talbert <swt@techie.net>  Wed, 16 Feb 2022 20:06:59 -0500
+
+python-pytest-timeout (2.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Update to new upstream release 2.1.0
+
+ -- Scott Talbert <swt@techie.net>  Mon, 14 Feb 2022 19:43:11 -0500
+
+python-pytest-timeout (2.0.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Update to new upstream release 2.0.2
+
+ -- Scott Talbert <swt@techie.net>  Mon, 27 Dec 2021 12:32:25 -0500
+
 python-pytest-timeout (2.0.1-1) unstable; urgency=medium
 
   * Team upload.

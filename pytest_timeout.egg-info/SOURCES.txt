@@ -2,7 +2,9 @@ LICENSE
 MANIFEST.in
 README.rst
 failure_demo.py
+pyproject.toml
 pytest_timeout.py
+setup.cfg
 setup.py
 test_pytest_timeout.py
 tox.ini

@@ -4,21 +4,21 @@ Forwarded: not-needed
 
 --- a/test_pytest_timeout.py
 +++ b/test_pytest_timeout.py
-@@ -131,7 +131,7 @@
+@@ -128,7 +128,7 @@ def test_timeout_env(pytester, monkeypat
  #     assert 'Timeout' in result.stdout.str() + result.stderr.str()
  
  
 -@pytest.mark.parametrize("meth", [pytest.param("signal", marks=have_sigalrm), "thread"])
 +@pytest.mark.parametrize("meth", ["thread"])
  @pytest.mark.parametrize("scope", ["function", "class", "module", "session"])
- def test_fix_setup(meth, scope, testdir):
-     testdir.makepyfile(
-@@ -176,7 +176,7 @@
+ def test_fix_setup(meth, scope, pytester):
+     pytester.makepyfile(
+@@ -173,7 +173,7 @@ def test_fix_setup_func_only(pytester):
      assert "Timeout" not in result.stdout.str() + result.stderr.str()
  
  
 -@pytest.mark.parametrize("meth", [pytest.param("signal", marks=have_sigalrm), "thread"])
 +@pytest.mark.parametrize("meth", ["thread"])
  @pytest.mark.parametrize("scope", ["function", "class", "module", "session"])
- def test_fix_finalizer(meth, scope, testdir):
-     testdir.makepyfile(
+ def test_fix_finalizer(meth, scope, pytester):
+     pytester.makepyfile(
